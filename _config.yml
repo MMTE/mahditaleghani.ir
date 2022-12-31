@@ -1,0 +1,45 @@
+# change the followings to match your Github username and repo name
+baseurl: "/tailpages" # the name of your github repo
+url: "https://harrywang.github.io" # the url of your github pages
+
+# site information used in page title, meta data etc.
+title: "وبسایت و بلاگ شخصی مهدی طالقانی"
+description: مهدی طالقانی برنامه نویس و فعال در حوزه تکنولوژی
+
+# color theme for links
+theme-color: indigo # indigo|yellow|pink|green|stone|
+
+# homepage information
+author: Mahdi Taleghani
+#author-bio: false  # change to false to hide
+#author-image: 279.png  # file must be in the /assets/img/ folder
+
+# navigation menu
+show-nav-menu: true
+
+nav-menu:
+- text: درباره من
+  permalink: about
+- text: بلاگ
+  permalink: blog
+
+# use false to turn off any social media links
+twitter: https://twitter.com/mm_taleghani
+facebook: false
+instagram: false
+github: https://github.com/mmte
+linkedin: false
+medium: false
+google-scholar: false
+email: false
+
+# footer information
+footer-msg: "Powered by Tailpages"
+footer-msg-link: https://github.com/harrywang/tailpages
+
+# google analytics
+google-analytics: G-G04CZPB29N
+
+# jekyll plugins - no need to change
+plugins:
+    - jekyll-seo-tag

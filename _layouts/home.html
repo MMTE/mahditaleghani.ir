@@ -6,7 +6,7 @@ layout: default
 {% endif %}
 
 <div class="mx-auto text-center">
-    <div class="px-3 md:px-0 mb-4 prose prose-{{site.theme-color}}">
+    <div class="px-3 md:px-0 mb-2 prose-xl prose-{{site.theme-color}}">
         <div class="flex flex-row items-center">
             <img class="ml-4 object-cover h-20 w-20 rounded-full"
                  src="https://avatars.githubusercontent.com/u/6337624?v=4"
@@ -16,14 +16,16 @@ layout: default
                 <p class="text-gray-500">توسعه‌دهنده وب</p>
             </div>
         </div>
-        <div class="px-4 py-2 bg-amber-100 rounded-lg">
-            سلام من مهدی طالقانی هستم. بیشتر فعالیت من در حوزه برنامه‌نویسی و IT بوده.
-        </div>
-        <hr>
-        <div class="prose-h2:text-gray-800">
-            <h2 class=" text-right">جدیدترین نوشته‌های من:</h2>
+        <div class="prose-h2:text-xl prose-h2:font-bold ">
+
+            <div class="rounded-xl py-4 bg-blue-100 font-deroos font-bold">
+                Fortis Fortuna Adiuvat
+            </div>
+
+            <hr>
+            <h2 class="text-right">جدیدترین نوشته‌های من:</h2>
             {% for post in site.posts limit:4 %}
-            <div class=" text-right">
+            <div class="text-right">
                 <h3><a href="{{site.baseurl}}{{ post.url }}">{{ post.title}}</a></h3>
                 <div class="text-sm text-gray-400" id="date@{{post.date}}"></div>
             </div>
@@ -32,7 +34,6 @@ layout: default
         <hr>
     </div>
     <div class="mt-10 ">
-        <p class="text-gray-600">راه‌های ارتباطی با من:</p>
         {% include social-media.html %}
     </div>
 </div>
@@ -41,7 +42,7 @@ layout: default
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         var dates = document.querySelectorAll('[id^="date@"]')
-        let i =0
+        let i = 0
         while (i < dates.length) {
             let element = document.getElementById(dates[i].id)
             let postDate = dates[i].id.split('@')[1]

@@ -31,6 +31,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Vazirmatn', ...defaultTheme.fontFamily.sans],
+        deroos: ['Deroos', ...defaultTheme.fontFamily.sans],
       },
     },
   },

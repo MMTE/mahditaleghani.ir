@@ -1,16 +1,11 @@
-# About
+# وبسایت مهدی طالقانی
 
-Tailpages (Tailwind + Github Pages) is a Jekyll website template based on TailwindCSS, which can be hosted by Github for free. You can visit the demo site at [https://harrywang.me/](https://harrywang.me/).
+این مخزن فایل‌های وبسایت شخصی من است که با jekyll ساخته شده است.  برای قالب اولیه این سایت از پروژه [Harry Wang](https://github.com/harrywang/tailpages) استفاده شده است.
 
-Key features are:
+### از نظر من استفاده از Github pages چند مزیت دارد:
 
-- Minimalist design inspired by the [indigo template](https://github.com/sergiokopplin/indigo)
-- Elegant typography via [TailwindCSS Typography plugin](https://tailwindcss.com/docs/typography-plugin) and [Inter font](https://rsms.me/inter/)
-- Markdown support for content authoring (static pages and blogs)
-- Code highlighting and styling via [highlight.js](https://highlightjs.org/) (see [code example](https://harrywang.me/2022/01/18/tailpages-tutorial-technical.html))
-- Latex support via [MathJax](https://www.mathjax.org/) (see an [example](http://harrywang.me/2022/02/09/latex-cheatsheet.html))
-- Table of Contents support via [jekyll-toc](https://github.com/allejo/jekyll-toc) (see an [example](http://harrywang.me/2022/02/08/python-cheatsheet.html))
+- می‌توان با احتمال بسیار زیاد گفت فایل‌های موجود در گیت‌هاب ابدی هستند و بعید است که این شرکت تصمیمی بگیرد یا اتفاقی بیفتد تا نوشته‌ها و کد‌های آن زمانی از بین برود.
+- همینطور می‌توان گفت تقریبا uptime آن تضمین شده است و ساعت‌ها کار و میلیارد‌ها دلار هزینه می‌شود تا این وبسایت downtime نداشته باشد. 
+- با یک کامیت ساده به صورت اتومات مطالب build می‌شوند و به روزرسانی انجام می‌شود.
 
-### Tutorials
-- No-code Tutorial: this tutorial shows how you can use Tailpages template to quickly setup your website and blogs without coding, which you can access at [medium](https://harrywang.medium.com/introducing-tailpages-tailwind-github-pages-89903c52d3ec) or [blog](https://harrywang.me/tailpages-tutorial-nocode).
-- Technical Tutorial: this tutorial shows how to setup the development environment for Tailpages from scratch, which you can access at [medium](https://harrywang.medium.com/developing-tailpages-a-jekyll-template-based-on-tailwind-css-b8b51e60e25b) or [blog](https://harrywang.me/tailpages-tutorial-technical). 
+

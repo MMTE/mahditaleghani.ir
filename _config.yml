@@ -1,6 +1,6 @@
 # change the followings to match your Github username and repo name
-baseurl: "/mahditaleghani.ir" # the name of your github repo
-url: "https://mmte.github.io" # the url of your github pages
+baseurl: "" # the name of your github repo
+url: "" # the url of your github pages
 
 # site information used in page title, meta data etc.
 title: "وبسایت و بلاگ شخصی مهدی طالقانی"

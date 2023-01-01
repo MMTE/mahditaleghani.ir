@@ -43,3 +43,4 @@ google-analytics: G-G04CZPB29N
 # jekyll plugins - no need to change
 plugins:
     - jekyll-seo-tag
+    - jemoji

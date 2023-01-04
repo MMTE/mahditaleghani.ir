@@ -22,6 +22,10 @@ nav-menu:
   permalink: about
 - text: بلاگ
   permalink: blog
+- text: شرنامه
+  permalink: shernameh
+- text: پروژه‌ها
+  permalink: projects
 
 # use false to turn off any social media links
 twitter: https://twitter.com/mm_taleghani
@@ -44,3 +48,9 @@ google-analytics: G-G04CZPB29N
 plugins:
     - jekyll-seo-tag
     - jemoji
+
+collections:
+  shers:
+    output: true
+  projects:
+    output: true
